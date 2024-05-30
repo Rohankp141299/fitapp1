@@ -1,7 +1,7 @@
 FROM nginx:latest
   RUN rm /usr/share/nginx/html/index.html
 # Copy the static website files to the Nginx html directory
-COPY /fitapp/. /usr/share/nginx/html/
+COPY /fitapp1/. /usr/share/nginx/html/
 
 # Expose port 80 to allow outside access to the website
 EXPOSE 80
