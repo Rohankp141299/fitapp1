@@ -11,6 +11,8 @@ environment {
         stage('checkout') {
             steps {
                 //sh 'sudo rm -rf /var/lib/jenkins/workspace/Backend_Pipeline/fitapp1'
+                sh 'pwd'
+                echo 'debug'
                 sh 'git clone https://github.com/Rohankp141299/fitapp1.git '
                 echo 'code pulled '
             }   
